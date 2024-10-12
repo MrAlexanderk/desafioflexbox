@@ -3,80 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Flex box</title>
 </head>
 <body>
     <div class="contactos">
-        <div id="perfil" class="chatbox">
-            <div></div>
+        <div id="perfil">
+            <div class="perfil-info">
+                <img src="/assets/img/patrick.jpg" alt="Imagen de perfil de Patrick" class="chat-perfil-photo">
+                <div class="chat-information">
+                    <h2>Patrick</h2>
+                    <p>En línea</p>
+                </div>
+            </div>
+            <div class="iconos">
+                <i class="fa-solid fa-message fa-xl"></i>
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </div>
+
+
         </div>
         <div id="nuevo-chat">
-
+            <button class="new-chat-button">Nuevo Chat</button>
         </div>
         <div id="chats">
             <div class="chat">
                 <img src="/assets/img/alejandra.jpg" alt="Imagen de perfil de Alejandra" class="chat-photo">
                 <div class="chat-information">
-                    <h4>Alejandra Montoya</h5>
+                    <h4>Alejandra Montoya</h4>
                     <p>Necesitamos hablar...</p>
                 </div>
             </div>
             <div class="chat">
-                <img src="/assets/img/amanda.jpg" alt="Imagen de perfil de Alejandra" class="chat-photo">
+                <img src="/assets/img/amanda.jpg" alt="Imagen de perfil de Amanda" class="chat-photo">
                 <div class="chat-information">
-                    <h4>Amanda Montoya</h5>
+                    <h4>Amanda Montoya</h4>
                     <p>TE METISTE CON MI HERMANA????</p>
                 </div>
             </div>
             <div class="chat">
-                <img src="/assets/img/candela.jpg" alt="Imagen de perfil de Alejandra" class="chat-photo">
+                <img src="/assets/img/candela.jpg" alt="Imagen de perfil de Candela" class="chat-photo">
                 <div class="chat-information">
-                    <h4>Candela Larraín</h5>
+                    <h4>Candela Larraín</h4>
                     <p>Oye, Amanda dice que no le respondes...</p>
                 </div>
             </div>
             <div class="chat">
-                <img src="/assets/img/francisco.jpg" alt="Imagen de perfil de Alejandra" class="chat-photo">
+                <img src="/assets/img/francisco.jpg" alt="Imagen de perfil de Francisco" class="chat-photo">
                 <div class="chat-information">
-                    <h4>Francisco Meneses</h5>
+                    <h4>Francisco Meneses</h4>
                     <p>Holaa</p>
                 </div>
             </div>
             <div class="chat">
-                <img src="/assets/img/maria.jpg" alt="Imagen de perfil de Alejandra" class="chat-photo">
+                <img src="/assets/img/maria.jpg" alt="Imagen de perfil de María" class="chat-photo">
                 <div class="chat-information">
-                    <h4>Chica</h5>
+                    <h4>Chica</h4>
                     <p>Me compras unos cheetos cuando vengas de camino?</p>
                 </div>
             </div>
             <div class="chat">
-                <img src="/assets/img/matias.jpg" alt="Imagen de perfil de Alejandra" class="chat-photo">
+                <img src="/assets/img/matias.jpg" alt="Imagen de perfil de Matías" class="chat-photo">
                 <div class="chat-information">
-                    <h4>Mati</h5>
+                    <h4>Mati</h4>
                     <p>Nos vemos!</p>
                 </div>
             </div>
             <div class="chat">
-                <img src="/assets/img/patrick.jpg" alt="Imagen de perfil de Alejandra" class="chat-photo">
+                <img src="/assets/img/tom.jpg" alt="Imagen de perfil de Tom" class="chat-photo">
                 <div class="chat-information">
-                    <h4>Pato</h5>
-                    <p>Gracias!!</p>
-                </div>
-            </div>
-            <div class="chat">
-                <img src="/assets/img/tom.jpg" alt="Imagen de perfil de Alejandra" class="chat-photo">
-                <div class="chat-information">
-                    <h4>Tommy</h5>
+                    <h4>Tommy</h4>
                     <p>No, ya te dije que no</p>
                 </div>
             </div>
             <div class="chat">
-                <img src="/assets/img/tyler.jpg" alt="Imagen de perfil de Alejandra" class="chat-photo">
+                <img src="/assets/img/tyler.jpg" alt="Imagen de perfil de Tyler" class="chat-photo">
                 <div class="chat-information">
-                    <h4>Tyler Mayer</h5>
+                    <h4>Tyler Mayer</h4>
                     <p>Yapo, solo déjame sacarle UNA foto</p>
                 </div>
             </div>
@@ -87,5 +94,6 @@
         <h1>Comienza el networking</h1>
         <p>Presiona el botón <span class="bold">"Nuevo Chat"</span> para comenzar a crear nuevas redes de contacto para tu empresa o emprendimiento.</p>
     </div>
+    
 </body>
 </html>
