@@ -1,0 +1,62 @@
+@import url('/assets/css/colors.css');
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    background-color: var(--platinum);
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.principal > img{
+
+}
+
+.bold{
+    font-weight: 700;
+}
+
+
+.contactos{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 25%;
+}
+
+.chat{
+    background-color: var(--pale-lavender);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.chat-photo{
+    width: 20%;
+    border-radius: 50%;
+}
+.chat-information{
+    width: 70%;
+}
+
+.chat-information > p{
+    font-size: small;
+}
